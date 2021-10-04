@@ -1,0 +1,6 @@
+package com.example.springdatajpatutorial.repository;
+@SpringBootTest
+@DataJpaTest
+public @interface SpringBootTest {
+
+}

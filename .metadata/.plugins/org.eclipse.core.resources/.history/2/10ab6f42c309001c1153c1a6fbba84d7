@@ -1,0 +1,17 @@
+package tech.getarrays.employeemanager.service;
+
+import org.springframework.stereotype.Service;
+
+import tech.getarrays.employeemanager.repo.EmployeeRepo;
+
+@Service
+public class EmployeeService {
+private final EmployeeRepo employeeRepo;
+
+@Autowired
+public EmployeeService(EmployeeRepo employeeRepo) {
+	
+	this.employeeRepo = employeeRepo;
+}
+
+}

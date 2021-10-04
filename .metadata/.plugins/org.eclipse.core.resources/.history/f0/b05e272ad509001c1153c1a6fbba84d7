@@ -1,0 +1,19 @@
+package tech.getarrays.employeemanager;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import tech.getarrays.employeemanager.service.EmployeeService;
+
+@RestController
+@RequestMapping("/employee")
+public class EmployeeResource {
+	private final EmployeeService employeeservice;
+
+	public EmployeeResource(EmployeeService employeeservice) {
+	
+		this.employeeservice = employeeservice;
+	}
+	 
+
+}

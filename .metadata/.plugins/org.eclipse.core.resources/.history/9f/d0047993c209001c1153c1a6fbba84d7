@@ -1,0 +1,13 @@
+package tech.getarrays.employeemanager.service;
+
+import tech.getarrays.employeemanager.repo.EmployeeRepo;
+
+public class EmployeeService {
+private final EmployeeRepo employeeRepo;
+
+public EmployeeService(EmployeeRepo employeeRepo) {
+	super();
+	this.employeeRepo = employeeRepo;
+}
+
+}

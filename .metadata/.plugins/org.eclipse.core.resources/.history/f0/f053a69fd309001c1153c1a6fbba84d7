@@ -1,0 +1,8 @@
+package tech.getarrays.employeemanager;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class EmployeeResource {
+
+}
